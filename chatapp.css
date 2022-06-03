@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 200%;
+    background-position: top left;   
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap: 150px;
+    position: fixed;
+}
+.gradient{
+    height: 90vh;
+    width: 25%;
+    background-image: linear-gradient(180deg,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    position: absolute;
+    border-bottom-right-radius: 700px 600px;
+    border-bottom-left-radius: 50px 5px;
+}
+.color{
+    background-color: hsla(270, 20%, 96%, 0.5);
+    width: 25%;
+    height: 90vh;
+    display: flex;
+    align-self: end;
+    border-top-left-radius: 1400px 1400px;
+    border-top-right-radius: 650px 150px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+
+}
+.chat-container{
+    background-color: hsl(270, 20%, 96%);
+    height: 700px;
+    width: 360px;
+    border: 10px solid white;
+    border-radius: 3rem;
+    box-shadow: 5px 10px 20px .2px rgba(101, 99, 99, 0.4);
+}
+.camera{
+    background-image: linear-gradient(90deg,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    border-radius:  2.5rem  2.5rem .6rem .6rem ;
+}
+.head{    
+    display: flex;
+    padding: 20px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-content: center;
+}
+.bump{
+    width: 50%;
+    margin: auto;
+    height: 20px;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+i.material-symbols-outlined{
+    color: white;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+
+}
+span.material-symbols-outlined{
+    color:  hsl(289, 100%, 72%);
+    margin-right: 6px;
+    font-size: 20px;
+}
+h2.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 1000,
+  'GRAD' 0,
+  'opsz' 60
+}
+h2.material-symbols-outlined{
+    color: white;
+    align-self: center;
+}
+.head img{
+    border-radius: 50%;
+    width: 30px;
+    border: 1.5px solid white;
+    margin-right: 10px;
+}
+.head h3{
+    color: white;
+    font-size: 1rem;
+}
+.head p{
+    color:hsl(276, 100%, 81%) ;
+    font-size: .75rem;
+}
+.paragraph p{
+    background-color:hsla(276, 100%, 81%, 0.126);
+    border-radius: 1rem 1rem 1rem .3rem;
+    width:65%;
+    overflow: hidden;
+    padding: 10px 20px 10px 10px;
+    margin: 8px;
+    color: hsl(276, 55%, 52%) ;
+    font-size: .75rem;
+    font-weight: 400;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.chat-images{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 10px;
+    margin-bottom: 0;
+}
+.chat-images img{
+    border-radius: 1rem;
+    width: 60px;
+    margin:6px ;
+}
+.section-2 p{
+    background-color: white;
+    color:hsl(271, 15%, 43%) ;
+    border-radius: 1rem 1rem .3rem 1rem;
+    margin: 5px;
+    padding: 10px 10px 10px 20px;
+    font-size: .75rem;
+    font-weight: 400;
+    text-align: start;
+}
+.walk-price{
+    background-image: linear-gradient(90deg,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    margin: 10px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem 1rem 1rem .3rem;
+    padding: 15px 20px 15px 10px;
+}
+.walk-price h4{
+    color: white;
+}
+.fill{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.fill label{
+    font-size: .75rem;
+    font-weight: 400;
+    color: hsl(276, 100%, 81%);
+}
+.message-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    padding: 8px;
+    padding-left: 40px;
+    border-radius: 2.6rem;
+    margin: 12px;
+    margin-top: 20px;
+}
+h3.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 64;
+  color: white;
+  background-color: hsl(271, 36%, 24%);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 35px;
+}
+.message-box p{
+    color: hsl(206, 6%, 79%);
+    font-size: .9rem;
+}
+.booking{
+    margin-bottom: 0;
+}
+.booking h1{
+    color: hsl(271, 36%, 24%);
+    margin-bottom: 30px;
+}
+.booking p{
+    color: hsl(270, 7%, 64%);
+}
+
+@media(max-width:870px){
+    body{
+        height: 100vh;
+        position: absolute;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        position: relative;
+        gap: 50px;
+    }
+    .booking{
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .gradient{
+        height: 80vh;
+        width: 50%;
+        background-image: linear-gradient(180deg,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        position: fixed;
+        border-bottom-right-radius: 1000px 1000px;
+        border-bottom-left-radius:  0px 150px;
+    }
+    .color{
+        background-color: hsla(270, 20%, 96%, 0.5);
+        width: 50%;
+        height: 40vh;
+        border-top-left-radius: 1400px 1400px;
+        border-top-right-radius: 650px 150px;
+        position: fixed;
+        bottom: 0 ;
+        right: 0;
+        z-index: -1;
+    }
+    .booking p{
+        color: hsl(270, 7%, 64%);
+        line-height: 40px;
+        margin-top: 50px;
+    }
+}
+
+
